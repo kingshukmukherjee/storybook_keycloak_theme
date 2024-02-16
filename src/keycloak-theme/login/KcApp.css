@@ -1,0 +1,22 @@
+:root {
+
+    --linear-gradient-yellow-to-right: linear-gradient(90deg,#fc0 0%,#fc0 48%,#ffe57f 70%,#fff0b2);
+   
+}
+
+.my-color {
+	color: red;
+}
+
+.my-font {
+	font-family: 'Work Sans';
+}
+
+.my-root-class {
+	background: var(--linear-gradient-yellow-to-right);
+
+}
+
+.my-root-class body {
+	background: var(--linear-gradient-yellow-to-right);
+}
